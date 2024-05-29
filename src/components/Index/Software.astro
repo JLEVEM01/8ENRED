@@ -1,0 +1,47 @@
+---
+import Container from "../Container.astro";
+import Rav from "./Rav.astro";
+import Nomiweb from "./Nomiweb.astro";
+import RfcVal from "./RfcVal.astro";
+---
+
+
+<section class="mt-1 md:mt-10 bg-white">
+    <Container>
+        <div class="grid grid-cols-2">
+            <h1 class="col-span-2 styleFont-software mb-5 text-center font-bold text-3xl  text-red-400 delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0">Software</h1>
+            <div class=" col-span-2 text-center sm:text-left  before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-red-400" style="display: block; margin: auto;"></div>
+            <h1 class="col-span-2  styleFont text-3xl md:text-5xl font-light text-red-400 p-5 text-center delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0"> </span> Conoce las herramientas <br> que tenemos para ti</h1>
+            <div class="col-span-2  md:col-span-1 my-4 md:mr-2 delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0 ">
+                <Rav></Rav>
+            </div>
+            <div class="col-span-2  md:col-span-1 my-4 md:ml-2 delay-[300ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0">
+                <Nomiweb></Nomiweb>
+            </div>
+            <div class="col-span-2  md:col-span-2 mt-4 delay-[500ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0">
+                <RfcVal></RfcVal>
+            </div>
+        </div>
+    </Container>
+</section>
+
+
+<style>
+    .bgSection {
+        background-image: url(/public/backgrounds/bgSistemas_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .styleFont{
+        font-family: "Saira", sans-serif ;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .styleFont-software{
+        font-family: "Saira", sans-serif ;
+        font-style: normal;
+        font-weight: 600;
+    }
+</style>

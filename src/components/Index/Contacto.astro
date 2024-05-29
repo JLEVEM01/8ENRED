@@ -1,0 +1,72 @@
+---
+
+import Container from "../Container.astro";
+
+---
+
+
+<section class="bgSection">
+    <Container>
+        <h1 class="text-2xl md:text-2xl styleFontH text-red-400 m-5 text-center delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0">¿Estas ineresado? <br>
+            <span class="text-2xl md:text-5xl font-light text-red-400">
+             Comunicate con nostros    
+            </span>
+        </h1>
+        <!-- <h1 class="text-2xl md:text-5xl font-light text-red-400 m-10 text-center delay-[100ms] duration-[600ms] taos:scale-[0.6] taos:opacity-0">Comunicate con nosotros.</h1> -->
+        <!-- <p class="text-center text-5xl py-5 font-light text-red-400">  </p> -->
+        <div class="grid grid-cols-12 rounded-3xl  backdrop-blur-xl border-white bg-white/30">
+
+            <div class="col-span-12  lg:col-span-4 my-5 px-5 flex gap-4 md:items-center" >
+                <div class="w-12 h-12 flex gap-4 rounded-full bg-white">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="24"  viewBox="2 -6 20 60"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-phone w-20 h-20 m-auto text-drk dark:text-dark"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" /></svg>
+                </div>
+                <div class="w-5/6" style="display: block; margin: auto">
+                    <h1 class="text-1xl md:text-1xl styleFontP">(52) 81 20860526</h1>
+                </div>
+            </div>
+            <div class="col-spa lg:col-span-4 my-5 px-5 flex gap-4 md:items-center">
+                <div class="w-12 h-12 flex gap-4 rounded-full bg-white">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="2 -6 20 60"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-mail w-20 h-20 m-auto text-drk dark:text-dark"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>
+                </div>
+                <div class="w-5/6" style="display: block; margin: auto">
+                    <h1 class="text-1xl styleFontP md:text-1xl">soporte@8enred.mx</h1>
+                </div>
+                
+            </div>
+            <div class="col-span-12  lg:col-span-4 my-5 px-5 flex gap-4 md:items-center" id="Contacto">
+                <div class="w-12 h-12 flex gap-4 rounded-full bg-white">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="2 -6 20 60"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin w-20 h-20 m-auto text-drk dark:text-dark"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" /></svg>
+                </div>
+                <div class="w-5/6" style="display: block; margin: auto">
+                    <h1 class="text-1xl styleFontP md:text-1xl">Calzada San Pedro 250
+                        Miravalle
+                        Monterrey, Nuevo León
+                        C.P. 64660
+                        </h1>
+                </div>
+                
+            </div>
+        </div>
+    </Container>
+</section>
+
+
+<style>
+    .bgSection {
+        background-image: url(/public/backgrounds/bgSistemas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .styleFontH{
+        font-family: "Saira", sans-serif ;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .styleFontP{
+        font-family: "Saira", sans-serif ;
+        font-style: normal;
+        font-weight: 100;
+    }
+</style>
